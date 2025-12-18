@@ -1,0 +1,38 @@
+# Local YouTube to MP3 Converter - Final Blueprint
+
+## 1. Project Overview
+A local-only web application that downloads YouTube audio as MP3 files. It bypasses browser security limits by using a local Node.js backend.
+
+## 2. Tech Stack
+*   **Frontend:** Svelte (Vite) + Tailwind CSS.
+*   **Backend:** Node.js (Express) + `child_process`.
+*   **Core Engine:** `yt-dlp` (Python-based downloader).
+*   **Converter:** FFmpeg (Binary executable in `tools/` folder).
+
+## 3. Architecture (The "Local Bridge")
+1.  **User** pastes URL in Svelte Frontend (Port 5173).
+2.  **Frontend** sends POST request to Backend (Port 3001).
+3.  **Backend** spawns a process using `yt-dlp`.
+4.  **yt-dlp** downloads video and uses **FFmpeg** (from `tools/` folder) to convert to MP3.
+5.  **Backend** reads the console output (stdout) to send real-time **Progress %** back to Frontend.
+6.  **File** is saved to the user's chosen folder (Desktop, Downloads, etc.).
+
+## 4. Key Features
+*   **Smart Preview:** Automatically fetches high-quality thumbnails (`hqdefault.jpg`).
+*   **Real-time Progress:** Visual red progress bar using polling.
+*   **Custom Save Location:** Desktop, Documents, or System Downloads.
+*   **Offline Mode:** All icons are SVGs (no external font libraries).
+*   **Privacy:** No external servers; everything runs on localhost.
+
+## 5. File Structure
+```text
+yt-mp3-local/
+├── downloads/          # Default save folder
+├── public/             # logo.png goes here
+├── src/                # Svelte source code
+├── tools/              # IMPORTANT: Contains ffmpeg.exe and ffprobe.exe
+├── node_modules/       # Dependencies
+├── server.js           # Backend logic (The Worker)
+├── start_app.bat       # One-click startup script
+├── package.json        # Project settings
+└── tailwind.config.js  # Style settings
