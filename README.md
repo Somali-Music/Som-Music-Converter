@@ -94,7 +94,7 @@ Before you begin, ensure you have the following installed:
 
 > 📋 Open your terminal and run:
 ```bash
-git clone https://github.com/YOUR_USERNAME/som-music-media-tool.git
+git clone https://github.com/YOUR_USERNAME/Som-Music-Converter.git
 cd som-music-media-tool
 ```
 
