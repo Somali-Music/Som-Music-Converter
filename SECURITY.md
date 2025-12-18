@@ -14,7 +14,7 @@ If you find a security issue, please **DO NOT** open a public issue. Instead, co
 |---------|------|---------------|
 | 🌐 **Contact Form** | [som-music-admin.vercel.app/contact](https://som-music-admin.vercel.app/contact) | 24-48 hours |
 | 💬 **Discord Server** | [discord.gg/hjhm4RtgP2](https://discord.gg/hjhm4RtgP2) | Real-time |
-| 📧 **Email** | security@somali-music.org | 24-48 hours |
+| 📧 **Email** | yousumoha255@gmail.com | 24-48 hours |
 | 🐙 **GitHub Security** | [Private Security Advisory](https://github.com/Somali-Music/Som-Music-Converter/security/advisories/new) | 48-72 hours |
 
 </div>
