@@ -95,7 +95,7 @@ Before you begin, ensure you have the following installed:
 > 📋 Open your terminal and run:
 ```bash
 git clone https://github.com/YOUR_USERNAME/Som-Music-Converter.git
-cd som-music-media-tool
+cd Som-Music-Converter.git
 ```
 
 ### ![3](https://img.shields.io/badge/STEP-3-orange?style=flat-square) Install Dependencies
@@ -127,7 +127,7 @@ npm install
 
 Your folder structure should look like this:
 ```
-som-music-media-tool/
+Som-Music-Converter.git/
 ├── node_modules/
 ├── src/
 ├── tools/                <-- Create this folder
