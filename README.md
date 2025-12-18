@@ -7,6 +7,9 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-stable-success.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Policy-red.svg?style=for-the-badge&logo=security&logoColor=white)
+![Privacy](https://img.shields.io/badge/Privacy-First-green.svg?style=for-the-badge&logo=shield&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-Join_Us-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
 <!-- Tech Stack Badges -->
 <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
@@ -293,29 +296,36 @@ You should see: `Local: http://localhost:5173/`
 
 ---
 
-## 🤝 Contributing
+## 🔒 Security & Support
 
 <div align="center">
 
-![Contribute](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Security](https://img.shields.io/badge/🛡️_Security-Report_Vulnerabilities-critical?style=for-the-badge)
 
 </div>
 
-> 💡 Contributions are welcome! If you have an idea for a new feature:
+### 🚨 Found a Security Issue?
+
+If you discover a security vulnerability, please report it responsibly:
 
 <table>
 <tr>
 <td>
 
-**1️⃣** Fork the repository.
+**🌐 Contact Form:**  
+[som-music-admin.vercel.app/contact](https://som-music-admin.vercel.app/contact)
 
-**2️⃣** Create a new branch (`git checkout -b feature/AmazingFeature`).
+**💬 Discord Server:**  
+[discord.gg/hjhm4RtgP2](https://discord.gg/hjhm4RtgP2)
 
-**3️⃣** Commit your changes.
+**📧 Email:**  
+security@somali-music.org
 
-**4️⃣** Push to the branch.
+**🐙 GitHub Security:**  
+[Report a Vulnerability](https://github.com/Somali-Music/Som-Music-Converter/security/advisories/new)
 
-**5️⃣** Open a Pull Request.
+**📖 Full Security Policy:**  
+See [SECURITY.md](SECURITY.md) for detailed information.
 
 </td>
 </tr>
@@ -328,7 +338,9 @@ You should see: `Local: http://localhost:5173/`
 <div align="center">
 
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Use](https://img.shields.io/badge/Use-Personal_&_Educational-orange?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Policy-red.svg?style=for-the-badge&logo=security&logoColor=white)
+![Privacy](https://img.shields.io/badge/Privacy-First-green.svg?style=for-the-badge&logo=shield&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-Join_Us-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
 </div>
 
